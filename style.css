@@ -1,0 +1,93 @@
+/* It is a good practice */
+/*border:border-box --> this gives a border to the content without increasing 
+the size of the box (if border size is increased then the content size gets reduced to adjust the box)*/
+
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height:50px;
+    width: 100px;
+}
+
+.logo{
+    background-image:url(amazon_logo.png);
+    
+    background-size:cover;
+    height:50px;
+    width: 100%;
+    
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+}
+
+/**Box 2**/
+.address-first{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.address-sec{
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/**Box 3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height:40px;
+    background-color: rgba(240, 155, 70, 0.877);
+    border-radius: 4px;
+}
+.search-select{
+   background-color: #E6E6E6;
+   width:50px;
+   border-left: 5px;
+   text-align: center;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   border:none;
+}
+
+.search-input{
+    font-size: 1rem;
+    width: 100%;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0f1111;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
